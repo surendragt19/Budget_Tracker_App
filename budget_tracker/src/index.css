@@ -1,0 +1,386 @@
+/* src/index.css */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.first{
+  width:50%;
+  height: 1000px;
+  float: left;
+}
+
+.second {
+  width: 50%;
+  height: 1000px;
+  float: right;
+}
+.input1{
+  width: 82%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid green;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: center;
+  margin-left: 3%;
+}
+.btn1{
+  width: 10%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 1%;
+}
+.text1{
+  text-align: center;
+  margin: 2%;
+}
+.input2{
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: center;
+  margin-left: 5%;
+}
+.label1{
+  margin-left: 6%;
+  font-size: large;
+}
+.btn2{
+  width: 10%;
+  background-color: blue;
+  color: white;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 85%;
+}
+.text2{
+  text-align: center;
+  margin-top: 10%;
+  color: blue;
+}
+.div2{
+  display: flex;
+  justify-content: center;
+}
+.budget{
+  width: 55%;
+  background-color: rgb(149, 0, 255);
+  color: white;
+  padding: 12px 20px;
+  text-align: center;
+  border-radius: 15px;
+  margin-top: 2%;
+  margin-left: 5%;
+}
+.left{
+  width: 55%;
+  background-color: rgb(0, 255, 132);
+  color: white;
+  padding: 12px 20px;
+  margin-top: 2%;
+  margin-left: 5%;
+  text-align: center;
+  border-radius: 15px;
+  font-weight: bolder;
+}
+.old ul {
+  list-style-type: none;
+  width: 60%;
+}
+.old li{
+  display: block;
+  color: black;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 1%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.name1{
+ 
+  border-radius: 5px;
+  background-color: rgba(0, 0, 255, 0.701);
+  color: white;
+}
+.g1{
+  padding: 35px;
+  font-size: 30px;
+  color: green;
+  font-weight: bolder;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.float-container {
+  border: 3px solid #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.first-child{
+  width: 50%;
+  float: left;
+  padding: 20px;
+  border: 2px solid green;
+} 
+
+
+.input_exp {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: 10%;
+}
+
+.btn_exp{
+  width: 80%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10%;
+}
+
+.btn_exp:hover {
+  background-color: #45a049;
+}
+
+.second-child{
+  width: 50%;
+  float: right;
+  padding: 20px;
+  border: 2px solid green;
+} 
+
+.newul{
+  
+  list-style-type: none;
+}
+.li_exp{
+  display: block;
+  color: black;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 75%;
+  display: flex;
+  margin-left: 10%;
+  margin-top: 3%;
+  justify-content: space-between;
+}
+.text_exp{
+  color: blue;
+  text-align: center;
+}
+.name_exp{
+
+  border-radius: 5px;
+  color: black;
+  font-weight: bolder;
+}
+.outer_div{
+  display: flex;
+justify-content: center;
+}
+.outer_btn{
+  width: 40%;
+  background-color: rgb(149, 0, 255);
+  color: white;
+  padding: 12px 20px;
+  text-align: center;
+  border-radius: 15px;
+ 
+  margin: 25px;
+}
+.logo{
+  padding: 20px;
+  color: green;
+}
+
+
+/* LoginForm.css */
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-form {
+  width: 350px;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding-right: 30px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.login-form input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 15px;
+  background-color: #00ff04;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #00b374;
+}
+.p1{
+  padding: 15px;
+  text-align: center;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.main1{
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+}
+.input1{
+  width: 100%;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid green;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.btn1{
+  width: 15%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  display: inline-block;
+}
+.f1{
+  width: 60%;
+}
+.grid{
+  display: grid;
+  height: 200px;
+  width: 100%;
+  gap: 20px;
+  justify-content: center;
+  grid-template-columns: auto auto auto;
+  margin-top: 30px;
+}
+
+.inner1{
+
+  border-radius: 10px;
+  padding: 52px;
+  border: 5px solid rgba(128, 128, 128, 0.55);
+ 
+}
+.in1{
+ width: auto;
+  border: 5px ridge gray;
+  color: black;
+  padding: 5px;
+}
+.in2{
+  width: auto;
+  border: 5px ridge gray;
+  color: black;
+  padding: 5px;
+  margin-top: 10px;
+}
+.btn_exp{
+background-color: #04AA6D;
+border: none;
+color: white;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 13px;
+cursor: pointer;
+}
+
+.registration-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.p1{
+  padding: 15px;
+  text-align: center;
+}
+
+.registration-form {
+  width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.registration-form input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.registration-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #00ff04;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.registration-form button:hover {
+  background-color: #00b374;
+}
