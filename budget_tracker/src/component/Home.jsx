@@ -12,7 +12,7 @@ const token = localStorage.getItem('token');
 
  async function fetchBudgets(){
     try {
-      const response = await fetch('http://localhost:3000/budget', {
+      const response = await fetch('/budget', {
         headers: {
           Authorization:token, // Assuming token is stored in local storage
         },

@@ -14,7 +14,6 @@ const PORT = process.env.PORT || 3000;
 app.use(cors())
 app.use(bodyParser.json());
 
-// mongoose.connect('mongodb://localhost:27017/myapp', { useNewUrlParser: true, useUnifiedTopology: true });
 mongoose.connect('mongodb+srv://surendragt07:NDVWl2RWGLEtiw7s@cluster0.umxbpyc.mongodb.net/budget', { useNewUrlParser: true });
 
 app.use('/auth', authRoutes);
