@@ -21,7 +21,7 @@ app.use('/auth', authRoutes);
 app.use('/budget', budgetRoutes);
 
 app.get("/", (req, res) => {
-  app.use(express.static(path.resolve(__dirname, "frontend", "dist")));
+  app.use(express.static(path.resolve(__dirname, "budget_tracker", "dist")));
   res.sendFile(path.resolve(__dirname, "budget_tracker", "dist", "index.html"));
 });
 
